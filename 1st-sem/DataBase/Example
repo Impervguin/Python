@@ -1,0 +1,2 @@
+id,name,developer,year,price,purchased
+int,str,str,int,float,bool

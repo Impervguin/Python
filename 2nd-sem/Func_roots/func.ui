@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1223</width>
+    <height>988</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>1231</width>
+      <height>991</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="input_tab">
+     <attribute name="title">
+      <string>Ввод</string>
+     </attribute>
+     <widget class="QLineEdit" name="func_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>100</y>
+        <width>1041</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>x**2 - 4</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="a_doubleSpinBox">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>220</y>
+        <width>461</width>
+        <height>49</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>4</number>
+      </property>
+      <property name="minimum">
+       <double>-10000000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>100000000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>-3.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="maxn_spinBox">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>440</y>
+        <width>1041</width>
+        <height>49</height>
+       </rect>
+      </property>
+      <property name="maximum">
+       <number>1000000</number>
+      </property>
+      <property name="value">
+       <number>10</number>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="error_textEdit">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>550</y>
+        <width>1041</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>60</y>
+        <width>1041</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Функция</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>190</y>
+        <width>451</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Левая граница</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>190</y>
+        <width>451</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Правая граница</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>300</y>
+        <width>451</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Точность Эпсилон</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>300</y>
+        <width>451</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Шаг деления</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>410</y>
+        <width>511</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Максимальное количество итераций</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>520</y>
+        <width>451</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Вывод ошибок</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="b_doubleSpinBox">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>230</y>
+        <width>461</width>
+        <height>49</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>4</number>
+      </property>
+      <property name="minimum">
+       <double>-10000000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>100000000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>3.000000000000000</double>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="h_doubleSpinBox">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>330</y>
+        <width>461</width>
+        <height>49</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>4</number>
+      </property>
+      <property name="minimum">
+       <double>-10000000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>100000000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>1.500000000000000</double>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="eps_doubleSpinBox">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>340</y>
+        <width>461</width>
+        <height>49</height>
+       </rect>
+      </property>
+      <property name="decimals">
+       <number>4</number>
+      </property>
+      <property name="minimum">
+       <double>-10000000000.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>100000000000.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>0.010000000000000</double>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="table_tab">
+     <attribute name="title">
+      <string>Таблица</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1231</width>
+        <height>941</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustIgnored</enum>
+      </property>
+      <row>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>№ корня</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>[xi; xi+1]</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>x’</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>f(x’)</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Количество
+итераций</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Код ошибки</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="graph_tab">
+     <attribute name="title">
+      <string>График</string>
+     </attribute>
+     <widget class="QWidget" name="graph" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>100</y>
+        <width>1221</width>
+        <height>831</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QWidget" name="toolbar" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1221</width>
+        <height>101</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

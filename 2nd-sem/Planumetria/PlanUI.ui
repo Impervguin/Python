@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1612</width>
+    <height>1466</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Planumetria</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QSpinBox" name="xDotBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>90</y>
+      <width>381</width>
+      <height>49</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="yDotBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>210</y>
+      <width>381</width>
+      <height>49</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>60</y>
+      <width>381</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>X точки</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>180</y>
+      <width>381</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Y точки</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>180</y>
+      <width>381</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Y точки 1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>60</y>
+      <width>381</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>X точки 1</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="y1DotBox">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>210</y>
+      <width>381</width>
+      <height>49</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="x1DotBox">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>90</y>
+      <width>381</width>
+      <height>49</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>60</y>
+      <width>381</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>X точки 2</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="y2DotBox">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>210</y>
+      <width>381</width>
+      <height>49</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="x2DotBox">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>90</y>
+      <width>381</width>
+      <height>49</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>180</y>
+      <width>381</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Y точки 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addDot">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>290</y>
+      <width>241</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить точку</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addLine">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>290</y>
+      <width>261</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить прямую</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="outLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>1280</y>
+      <width>1591</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="graphWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>360</y>
+      <width>1600</width>
+      <height>900</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

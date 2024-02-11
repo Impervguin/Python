@@ -1,0 +1,8 @@
+id,name,developer,year,price,purchased
+int,str,str,int,float,bool
+1,Skyrim,Bethesda,2012,39.99,True
+2,Northgard,Shiro Games,2018,4.99,True
+3,Factorio,Wube Software LTD,2020,4.99,False
+4,aaaa,Wube Software LTD,20202,4.99,True
+5,Super,ME,2022,5000.1,True
+6,test,test,3,1,True
